@@ -11,3 +11,11 @@ token:   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
 
 3.对于person模型，前面也是用到一个focus操作
 ![image](https://user-images.githubusercontent.com/32613232/141955844-3105159b-a49d-4a5a-93fd-f7a3fbdf2554.png)
+
+4.constexpr表示这玩意儿在编译期就可以算出来（前提是为了算出它所依赖的东西也是在编译期可以算出来的）。而const只保证了运行时不直接被修改（但这个东西仍然可能是个动态变量）
+
+5.make_unique 同 unique_ptr 、auto_ptr 等一样，都是 smart pointer，可以取代new 并且无需 delete pointer，有助于代码管理。
+
+6.mode 是指follow这些模式   camera_list 是指主，前后，左右这些相机
+
+5.adu是指算法板子，msd是可行驶空间算法
