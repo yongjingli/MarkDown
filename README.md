@@ -8,3 +8,6 @@ token:   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
 11.16
 1.adu_msgs.git用来存储图片这些。
 2.adu_services.git用于设备，imu这些的配置。
+
+3.对于person模型，前面也是用到一个focus操作
+![image](https://user-images.githubusercontent.com/32613232/141955844-3105159b-a49d-4a5a-93fd-f7a3fbdf2554.png)
