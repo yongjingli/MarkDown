@@ -20,4 +20,4 @@ token:   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
 
 5.adu是指算法板子，msd是可行驶空间算法
 
-6.每个相机main或者right，left作为一个独立的线程，每个线程独立创建一个newwork，通过percetion_mode进行控制，init进行初始化，然后通过start进行启动
+6.每个相机main或者right，left作为一个独立的线程，每个线程独立创建一个newwork，通过percetion_mode进行控制，init进行初始化，然后通过start进行启动，在start通过networks[i]->Start();对每个network进行开始识别运行
